@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doctrine — HET Skilling OS</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<nav>
+  <span class="site-id">hetexecs</span>
+  <a href="../index.html">OS Map</a>
+  <a href="../portfolio/index.html">Portfolio</a>
+  <a href="../pinboard/index.html">Pinboard</a>
+  <a href="index.html" class="active">Doctrine</a>
+  <a href="../funding-adapters/index.html">Funding Strategy</a>
+  <a href="../records/index.html">Decision Records</a>
+</nav>
+
+<h1>Doctrine</h1>
+<p class="subtitle">The operating principles. Mental model resets. Read these when you're confused, overwhelmed, or pitching.</p>
+
+<div class="section-grid">
+  <a href="#tp-doctrine" class="section-link" onclick="loadDoc('tp-doctrine.md')">
+    <h4>TP Operating Doctrine</h4>
+    <p>What a Training Provider actually is in 2026</p>
+  </a>
+  <a href="#entity-model" class="section-link" onclick="loadDoc('entity-model.md')">
+    <h4>Entity Model</h4>
+    <p>Portfolio → Course Family → Blueprint Version → Batch</p>
+  </a>
+  <a href="#ccf-template" class="section-link" onclick="loadDoc('ccf-template.md')">
+    <h4>CCF Template (Sections A–C)</h4>
+    <p>Course Control File — strategy sections</p>
+  </a>
+</div>
+
+<div id="doc-viewer" class="md-content" data-md="tp-doctrine.md" style="margin-top:2rem;"></div>
+
+<footer>
+  HET Skilling OS · <a href="../index.html">Back to OS Map</a>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="../js/app.js"></script>
+<script>
+function loadDoc(file) {
+  const el = document.getElementById('doc-viewer');
+  el.setAttribute('data-md', file);
+  renderMarkdown(el);
+}
+</script>
+</body>
+</html>

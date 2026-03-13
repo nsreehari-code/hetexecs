@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Decision Records — HET Skilling OS</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<nav>
+  <span class="site-id">hetexecs</span>
+  <a href="../index.html">OS Map</a>
+  <a href="../portfolio/index.html">Portfolio</a>
+  <a href="../pinboard/index.html">Pinboard</a>
+  <a href="../doctrine/index.html">Doctrine</a>
+  <a href="../funding-adapters/index.html">Funding Strategy</a>
+  <a href="index.html" class="active">Decision Records</a>
+</nav>
+
+<h1>Strategic Decision Records</h1>
+<p class="subtitle">Append-only, semantic. Each record captures a converged decision. New understanding = new record; old records are never edited.</p>
+
+<div class="md-content" style="font-size:0.92rem;">
+
+<h2>Record Format</h2>
+<p>Four fields only:</p>
+<pre><code>id: dr-YYYY-MM-DD-NNN
+timestamp: ISO 8601
+source: Where the decision emerged (thread, meeting, conversation)
+body: |
+  Natural language carrying full meaning — claim, evidence,
+  dissent, confidence, intent. No templates. No tags.
+</code></pre>
+
+<h2>Properties</h2>
+<ul>
+  <li><strong>Semantic, not templated</strong> — meaning lives in the prose</li>
+  <li><strong>Append-only, immutable</strong> — new understanding = new record</li>
+  <li><strong>No status field</strong> — chronology is sufficient</li>
+  <li><strong>No tags</strong> — agents search semantically</li>
+  <li><strong>No participant list</strong> — trace back to source for provenance</li>
+  <li><strong>No artifact links</strong> — agents discover state at query time</li>
+</ul>
+
+<h2>Routing</h2>
+<ul>
+  <li><strong>Strategic decisions</strong> → here (<code>hetexecs/records/</code>)</li>
+  <li><strong>Operational decisions</strong> → <a href="https://nsreehari-code.github.io/hetops/">hetops/records/</a></li>
+</ul>
+
+</div>
+
+<h2>Records</h2>
+<div id="records-list" class="md-content" data-md="dr-2026-03-13-001.md"></div>
+
+<footer>
+  HET Skilling OS · <a href="../index.html">Back to OS Map</a>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="../js/app.js"></script>
+</body>
+</html>

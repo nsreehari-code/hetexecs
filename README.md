@@ -1,44 +1,33 @@
-# hetexecs — HET Skilling Portfolio (CEO Map)
+# HET Skilling OS — hetexecs
 
-A static HTML+JS+JSON site that serves as the CEO's navigable mental map of the Heartfulness Skill Institute skilling system.
+**CEO Map — Strategy & Governance**
 
-## What this is
+The strategic half of the HET Skilling Operating System. This repo is the CEO's mental map — where you think about courses, not where you run them.
 
-- **Portfolio view** — all course families at a glance
-- **Course view** — blueprint versions for one course
-- **Version view** — evidence spine + batches for one version
-- **Batch view** — execution details, cohort, funding mix
+## What Lives Here
 
-## What this is NOT
+- **OS Map** — The 8-stage Skilling OS lifecycle (Stages 1–3 primary; 4–8 link to [hetops](https://github.com/nsreehari-code/hetops))
+- **Portfolio** — Course families, blueprint versions, strategic health
+- **Pinboard** — CEO thinking surface (ideas, hypotheses, qualification logic, experiments, evidence patterns, ops learnings)
+- **Doctrine** — TP operating model, entity model, CCF template (Sections A–C)
+- **Funding Strategy** — Govt / CSR / Paid adapters (strategic view)
+- **Decision Records** — Strategic decisions (append-only, semantic)
 
-- Not a task board or project tracker
-- Not a workflow engine
-- Not a replacement for the LMS
+## Architecture
 
-## Structure
+- Pure HTML + JS + Markdown — no build tools
+- Markdown rendered client-side via [marked.js](https://marked.js.org/)
+- GitHub Pages on `gh-pages` branch
+- Content is edited as `.md` files, rendered in the browser
 
-```
-hetexecs/
-├── index.html              # Portfolio (CEO view)
-├── views/
-│   ├── course.html         # Course family + versions
-│   ├── version.html        # Blueprint version details
-│   └── batch.html          # Batch execution view
-├── data/
-│   ├── courses.json        # Course families
-│   ├── versions.json       # Blueprint versions
-│   ├── batches.json        # Batch instances
-│   └── funding-adapters.json # Govt/CSR/Paid adapter definitions
-├── js/
-│   └── app.js              # Rendering + navigation
-├── style.css               # Light, minimal CSS
-└── records/                # Decision records (append-only)
-```
+## Companion Repos
 
-## Viewing
+| Repo | Purpose |
+|------|---------|
+| [hetops](https://github.com/nsreehari-code/hetops) | Execution map — Stages 4–8, batch lifecycle, checklists, evidence spines |
+| [hetweb](https://github.com/nsreehari-code/hetweb) | Public-facing website |
+| [hetlms](https://github.com/nsreehari-code/hetlms) | LMS application code |
 
-Open `index.html` in a browser, or deploy via GitHub Pages.
+## Part of H8 Society
 
-## Data
-
-All data lives in `data/*.json`. Edit the JSON files to add courses, versions, or batches. The HTML views render dynamically from these files.
+Bridge agent: `bridge-hetexecs` — relays strategy/portfolio questions to this repo's Copilot via H8-Theater.

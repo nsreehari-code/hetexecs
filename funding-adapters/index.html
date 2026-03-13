@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Funding Strategy — HET Skilling OS</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<nav>
+  <span class="site-id">hetexecs</span>
+  <a href="../index.html">OS Map</a>
+  <a href="../portfolio/index.html">Portfolio</a>
+  <a href="../pinboard/index.html">Pinboard</a>
+  <a href="../doctrine/index.html">Doctrine</a>
+  <a href="index.html" class="active">Funding Strategy</a>
+  <a href="../records/index.html">Decision Records</a>
+</nav>
+
+<h1>Funding Strategy</h1>
+<p class="subtitle">One engine, three adapters. What changes across Govt / CSR / Paid — and why. Operational checklists live in <a href="https://nsreehari-code.github.io/hetops/">hetops</a>.</p>
+
+<h2>The Core Insight</h2>
+<div class="md-content" style="font-size:0.92rem;">
+  <p><strong>Government funding did not create complexity. Reality did.</strong> Even without government, the same lifecycle exists — only with lighter compliance. What changes is <em>strictness, not structure</em>.</p>
+</div>
+
+<h2>What Changes Across Models</h2>
+<div class="md-content" style="font-size:0.92rem;">
+<table>
+  <tr><th>Layer</th><th><span class="chip govt">Govt</span></th><th><span class="chip csr">CSR</span></th><th><span class="chip paid">Paid</span></th></tr>
+  <tr><td>Outcomes</td><td>Mandatory & audited</td><td>Expected</td><td>Market-validated</td></tr>
+  <tr><td>Compliance</td><td>Heavy</td><td>Medium</td><td>Light</td></tr>
+  <tr><td>Documentation</td><td>Extreme</td><td>Selective</td><td>Minimal</td></tr>
+  <tr><td>Flexibility</td><td>Low</td><td>Medium</td><td>High</td></tr>
+  <tr><td>Failure cost</td><td>No payment</td><td>Reputation risk</td><td>Refund/reputation</td></tr>
+  <tr><td>Control</td><td>External</td><td>Shared</td><td>Yours</td></tr>
+</table>
+</div>
+
+<h2>The Four Switches</h2>
+<div class="stage-grid">
+  <div class="stage-card">
+    <h3>Switch A: Proof Standard</h3>
+    <p><span class="chip govt">Govt</span> Audited proof for payments (portal-valid, third-party assessment, livelihood proof)</p>
+    <p><span class="chip csr">CSR</span> Impact proof for reporting (credible, sampled, evidence-backed)</p>
+    <p><span class="chip paid">Paid</span> Market proof (completion + satisfaction + repeat + referrals)</p>
+  </div>
+  <div class="stage-card">
+    <h3>Switch B: Compliance Load</h3>
+    <p><span class="chip govt">Govt</span> SID, biometric, ToT/SSC, standard templates</p>
+    <p><span class="chip csr">CSR</span> MOUs, safeguarding, donor reporting, basic verification</p>
+    <p><span class="chip paid">Paid</span> Consumer policy, privacy, receipts, brand quality</p>
+  </div>
+  <div class="stage-card">
+    <h3>Switch C: Governance & Approvals</h3>
+    <p><span class="chip govt">Govt</span> RFP/Scheme rules; district/state approvals</p>
+    <p><span class="chip csr">CSR</span> Sponsor expectations + outcome KPIs + audits</p>
+    <p><span class="chip paid">Paid</span> Internal quality bar + customer promise</p>
+  </div>
+  <div class="stage-card">
+    <h3>Switch D: Cashflow Model</h3>
+    <p><span class="chip govt">Govt</span> Tranche-based reimbursement</p>
+    <p><span class="chip csr">CSR</span> Milestone-based grants or outcomes-based</p>
+    <p><span class="chip paid">Paid</span> Upfront payments; refunds/chargebacks risk</p>
+  </div>
+</div>
+
+<h2>Adapter Detail</h2>
+<div class="section-grid">
+  <div class="section-link" onclick="loadAdapter('govt.md')" style="cursor:pointer">
+    <h4><span class="chip govt">Govt</span> Strategy</h4>
+    <p>Schemes, tranche trap, SID control plane</p>
+  </div>
+  <div class="section-link" onclick="loadAdapter('csr.md')" style="cursor:pointer">
+    <h4><span class="chip csr">CSR</span> Strategy</h4>
+    <p>Sponsor KPIs, impact narrative, sampling</p>
+  </div>
+  <div class="section-link" onclick="loadAdapter('paid.md')" style="cursor:pointer">
+    <h4><span class="chip paid">Paid</span> Strategy</h4>
+    <p>Pricing, value prop, retention, referrals</p>
+  </div>
+</div>
+
+<div id="adapter-viewer" class="md-content" data-md="govt.md" style="margin-top:1.5rem;"></div>
+
+<footer>
+  HET Skilling OS · <a href="../index.html">Back to OS Map</a> · Operational checklists: <a href="https://nsreehari-code.github.io/hetops/">hetops</a>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="../js/app.js"></script>
+<script>
+function loadAdapter(file) {
+  const el = document.getElementById('adapter-viewer');
+  el.setAttribute('data-md', file);
+  renderMarkdown(el);
+}
+</script>
+</body>
+</html>
