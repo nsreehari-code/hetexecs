@@ -1,0 +1,26 @@
+[
+  {
+    "id": "wmdg",
+    "name": "Women Micro-Entrepreneurship & Digital Growth",
+    "short": "WMDG",
+    "intent": "Digital storefront + pricing discipline + customer workflows for women micro-entrepreneurs",
+    "icon": "🛍️",
+    "created": "2026-01"
+  },
+  {
+    "id": "mushroom",
+    "name": "Mushroom Farming",
+    "short": "MUSH",
+    "intent": "Safe cultivation + contamination control + yield + market linkage",
+    "icon": "🍄",
+    "created": "2025-09"
+  },
+  {
+    "id": "azure-de",
+    "name": "Azure Data Engineering",
+    "short": "AZDE",
+    "intent": "Job-ready capabilities in Azure data engineering — pipelines, lakes, warehouses",
+    "icon": "☁️",
+    "created": "2026-02"
+  }
+]

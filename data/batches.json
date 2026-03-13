@@ -1,0 +1,112 @@
+[
+  {
+    "id": "wmdg-v1-hyd-202604-b01",
+    "versionId": "wmdg-v1",
+    "courseId": "wmdg",
+    "location": "Hyderabad",
+    "startDate": "2026-04-07",
+    "endDate": "2026-05-29",
+    "cohort": {
+      "size": 30,
+      "profile": "SHG women, mixed literacy, existing micro-ventures (food/apparel/handicrafts)"
+    },
+    "funding": [
+      { "source": "CSR", "sponsor": "Sponsor A", "share": 100 }
+    ],
+    "health": "green",
+    "week": 0,
+    "status": "pre-launch"
+  },
+  {
+    "id": "wmdg-v1-hyd-202605-b02",
+    "versionId": "wmdg-v1",
+    "courseId": "wmdg",
+    "location": "Hyderabad",
+    "startDate": "2026-05-12",
+    "endDate": "2026-07-03",
+    "cohort": {
+      "size": 25,
+      "profile": "SHG women, rural, subsidy-linked expectations"
+    },
+    "funding": [
+      { "source": "Govt", "sponsor": "PMKVY", "share": 70 },
+      { "source": "CSR", "sponsor": "Sponsor B", "share": 30 }
+    ],
+    "health": "green",
+    "week": 0,
+    "status": "planned"
+  },
+  {
+    "id": "wmdg-v2-hyd-202606-b01",
+    "versionId": "wmdg-v2",
+    "courseId": "wmdg",
+    "location": "Hyderabad",
+    "startDate": "2026-06-15",
+    "endDate": "2026-07-10",
+    "cohort": {
+      "size": 20,
+      "profile": "Urban micro-entrepreneurs, digitally comfortable, self-paying"
+    },
+    "funding": [
+      { "source": "Paid", "sponsor": "Self", "share": 100 }
+    ],
+    "health": "green",
+    "week": 0,
+    "status": "planned"
+  },
+  {
+    "id": "mush-v1-wgl-202604-b01",
+    "versionId": "mush-v1",
+    "courseId": "mushroom",
+    "location": "Warangal",
+    "startDate": "2026-04-14",
+    "endDate": "2026-05-23",
+    "cohort": {
+      "size": 25,
+      "profile": "Rural youth/women, subsidy-linked, kitchen/backyard farming"
+    },
+    "funding": [
+      { "source": "Govt", "sponsor": "SSDM", "share": 100 }
+    ],
+    "health": "amber",
+    "week": 0,
+    "status": "pre-launch"
+  },
+  {
+    "id": "mush-v1-hyd-202605-b01",
+    "versionId": "mush-v1",
+    "courseId": "mushroom",
+    "location": "Hyderabad",
+    "startDate": "2026-05-05",
+    "endDate": "2026-06-13",
+    "cohort": {
+      "size": 20,
+      "profile": "Women SHG members, peri-urban, interest in kitchen farming"
+    },
+    "funding": [
+      { "source": "CSR", "sponsor": "Sponsor C", "share": 60 },
+      { "source": "Paid", "sponsor": "Co-pay", "share": 40 }
+    ],
+    "health": "green",
+    "week": 0,
+    "status": "planned"
+  },
+  {
+    "id": "azde-v1-online-202604-b01",
+    "versionId": "azde-v1",
+    "courseId": "azure-de",
+    "location": "Online",
+    "startDate": "2026-04-01",
+    "endDate": "2026-06-24",
+    "cohort": {
+      "size": 35,
+      "profile": "Working professionals, IT background, career upskilling"
+    },
+    "funding": [
+      { "source": "Paid", "sponsor": "Self", "share": 100 }
+    ],
+    "health": "green",
+    "week": 0,
+    "status": "pre-launch"
+  }
+]

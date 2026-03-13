@@ -1,0 +1,29 @@
+[
+  {
+    "id": "govt",
+    "name": "Government",
+    "color": "#2563eb",
+    "compliance": "High — portal enrollment, attendance, scheme rules, third-party assessment",
+    "payment": "Tranche-based reimbursement",
+    "proof": "Audited proof for payments — portal-valid, third-party assessment, livelihood proof",
+    "reporting": "Portal-mandated + audit-ready documentation"
+  },
+  {
+    "id": "csr",
+    "name": "CSR",
+    "color": "#059669",
+    "compliance": "Medium — sponsor KPIs, safeguarding, consent, donor reporting",
+    "payment": "Milestone-based grants or outcomes-based",
+    "proof": "Impact proof for reporting — credible, sampled, evidence-backed",
+    "reporting": "Sponsor narrative + evidence pack + success stories"
+  },
+  {
+    "id": "paid",
+    "name": "Paid",
+    "color": "#d97706",
+    "compliance": "Light — consumer policy, privacy, receipts, brand quality",
+    "payment": "Upfront payments; refunds/chargebacks risk",
+    "proof": "Market proof — completion, satisfaction, repeat purchase, referrals",
+    "reporting": "Customer success metrics + testimonials"
+  }
+]
